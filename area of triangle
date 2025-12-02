@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+float b,h,area;
+printf("enter b and h value");
+scanf("%f%f",&b,&h);
+area=1/2(b*h);
+printf("area of triangle=%f",area);
+return 0;
+}
